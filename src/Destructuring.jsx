@@ -1,5 +1,7 @@
 import React from "react";
 
+import styles from "./Destructuring.module.css";
+
 export default function Destructuring() {
   // Destructuring helps you to pick oiut the elements in the array and assign them to your own variables
   const person = ["naveen", 28, "developer"];
@@ -20,5 +22,5 @@ export default function Destructuring() {
 
   console.log(ageo);
 
-  return <div>Destructuring</div>;
+  return <div className={styles["App"]}>Destructuring</div>;
 }
