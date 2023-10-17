@@ -1,11 +1,12 @@
 import "./App.css";
-import SpreadAndRest from "./SpreadAndRest";
+import Destructuring from "./Destructuring";
 
 function App() {
   return (
     <div className="App">
-      <h1>Spread and rest operator</h1>
-      <SpreadAndRest />
+      <h1>Destructuring</h1>
+
+      <Destructuring />
     </div>
   );
 }
